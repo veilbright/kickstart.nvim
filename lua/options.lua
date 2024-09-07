@@ -12,6 +12,13 @@ vim.opt.mouse = 'a'
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
 
+-- Tab settings
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = false
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+
 -- Sync clipboard between OS and Neovim.
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 --  Remove this option if you want your OS clipboard to remain independent.
@@ -62,7 +69,7 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = '>>', trail = '·', nbsp = '_' }
+vim.opt.listchars = { tab = '│ ', trail = '·', nbsp = '_' }
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'

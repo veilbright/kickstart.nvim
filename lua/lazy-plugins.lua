@@ -14,6 +14,7 @@ require('lazy').setup({
   require 'kickstart.plugins.cmp',
   require 'kickstart.plugins.conform',
   require 'kickstart.plugins.gitsigns',
+  require 'kickstart.plugins.indent_line',
   require 'kickstart.plugins.lint',
   require 'kickstart.plugins.lsp-config',
   require 'kickstart.plugins.neo-tree',
@@ -21,7 +22,7 @@ require('lazy').setup({
   require 'kickstart.plugins.tokyonight',
   require 'kickstart.plugins.treesitter',
   require 'kickstart.plugins.which-key',
-
+  require 'plugins.vimtex',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
