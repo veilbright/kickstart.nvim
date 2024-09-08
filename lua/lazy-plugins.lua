@@ -22,6 +22,7 @@ require('lazy').setup({
   require 'kickstart.plugins.tokyonight',
   require 'kickstart.plugins.treesitter',
   require 'kickstart.plugins.which-key',
+  require 'plugins.debuggers.init',
   require 'plugins.vimtex',
 }, {
   ui = {
