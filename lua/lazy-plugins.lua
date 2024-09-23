@@ -17,13 +17,19 @@ require('lazy').setup({
   require 'kickstart.plugins.indent_line',
   require 'kickstart.plugins.lint',
   require 'kickstart.plugins.lsp-config',
+  require 'kickstart.plugins.mini',
   require 'kickstart.plugins.neo-tree',
   require 'kickstart.plugins.telescope',
-  require 'kickstart.plugins.tokyonight',
+  require 'kickstart.plugins.todo-comments',
   require 'kickstart.plugins.treesitter',
   require 'kickstart.plugins.which-key',
+  require 'plugins.competitest',
   require 'plugins.debuggers.init',
   require 'plugins.vimtex',
+
+  -- COLORSCHEMES (only load 1 at a time)
+  --require 'kickstart.plugins.tokyonight',
+  require 'plugins.oxocarbon',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
