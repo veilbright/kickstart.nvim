@@ -25,6 +25,7 @@ require('lazy').setup({
   require 'kickstart.plugins.which-key',
   require 'plugins.competitest',
   require 'plugins.debuggers.init',
+  require 'plugins.undotree',
   require 'plugins.vimtex',
 
   -- COLORSCHEMES (only load 1 at a time)
